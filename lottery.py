@@ -2,6 +2,10 @@
 # Megasena and Quina Brazilian Lottery
 
 # os module to handle multiple process fork parent and child processes
+# Under windows 10 you need to install Windows Linux Subsystem
+# Open Powershell
+# wsl --install
+# otherwise try running under Unix or Linux
 import os
 import random
 
